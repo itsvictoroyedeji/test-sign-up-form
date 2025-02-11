@@ -7,6 +7,68 @@
   <link rel="stylesheet" href="./index.html">
 </head>
 <body>
-  
+  <div class="full-screen">
+    <section class="sidebar">
+      <div class="logo_container">
+        <img src="./images/odin-logo.png" width="380" height="508" alt="Odin Logo">
+        <h1 class="logo-text">
+          Odin
+        </h1>
+        <p class="image_credits">
+          Photo by <a href="http://">Halie West</a> on <a href="http://" target="_blank" rel="noopener noreferrer">Unsplash</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="main">
+      <div class="main_intro">
+        <p>
+          This is not a real online service! You know you need something
+          like this in your life to help you realize your deepest
+          dreams. Sign up <em>now</em> to get started.
+        </p>
+        <p>
+          You <em>know</em> you want to.
+        </p>
+      </div>
+
+      <div class="form_section">
+        <p>Let's do this!</p>
+        <form action="" class="signup_form" id="signup_form" method="get">
+          <div class="comment-form-firstname">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" pattern="^[^0-9]+$" maxlength="245">
+          </div>
+          <div class="comment-form-lastname">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" maxlength="245">
+          </div>
+          <div class="comment-form-email">
+            <label for="email">Email <span aria-label="required">*</span></label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="comment-form-tel">
+            <label for="tel">Phone Number</label>
+            <input type="tel" id="tel" name="tel">
+          </div>
+          <div class="comment-form-password-1">
+            <label for="password-1">Password <span aria-label="required">*</span></label>
+            <input type="password" id="password-1" name="password-1" required>
+          </div>
+          <div class="comment-form-password-2">
+            <label for="password-2">Confirm Password<span aria-label="required">*</span></label>
+            <input type="password" id="password-2" name="password-2" required>
+          </div>
+        </form>
+      </div>
+
+      <div class="main_footer">
+        <button class="signup_button" type="submit" form="signup_form">
+          Create Account
+        </button>
+        <p>Already have an account? <a href="http://">Log in</a></p>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
