@@ -106,8 +106,13 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
-.main > div {
+.main > .main_intro,
+.main > .main_footer {
   padding: 1.5em 2em;
+}
+
+.main > .form_section {
+  padding: 1.3em 2em 2.2em;
 }
 
 .main_intro p:first-child {
@@ -129,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .form_section p {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 /* Form Styling */
